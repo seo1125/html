@@ -43,6 +43,10 @@
 			return false;
 		}
 }
+	function re(){
+		alert("정보를 지우고 처음부터 다시 입력합니다!");
+		location.href="join.jsp";
+	}
 </script>
 </head>
 <body>
@@ -55,8 +59,7 @@
 
 	<main id="section">
 		<h2 class="title">투표하기</h2>
-		<form name="data" action="join_a.jsp" method="post"
-			onsubmit="return checkValue()">
+		<form name="data" action="join_a.jsp" method="post" onsubmit="return checkValue()">
 			<table class="table_line">
 				<tr>
 					<th style="background-color: white;">주민번호</th>
@@ -72,7 +75,7 @@
 							<option value="">후보번호</option>
 							<option value="1">김후보</option>
 							<option value="2">이후보</option>
-							<option value="3" selected>박후보</option>
+							<option value="3">박후보</option>
 							<option value="4">조후보</option>
 							<option value="5">최후보</option>
 					</select></td>
@@ -89,13 +92,13 @@
 				<th style="background-color: white;">유권자확인</th>
 				<td> 
 					<input type = "radio" name= "v_confirm" value="Y">확인
-					<input type = "radio" name= "v_confirm" value="N" checked>미확인
+					<input type = "radio" name= "v_confirm" value="N">미확인
 				</td>
 				</tr>
 				<tr>
 				<td colspan="2" align="center">
 					<input type = "submit" value = "투표하기">
-					<input type = "button" value = "다시쓰기" onclick="">
+					<input type = "button" value = "다시쓰기" onclick="re()">
 				</td>
 				</tr>
 			</table>
