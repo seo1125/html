@@ -1,0 +1,69 @@
+<head>
+   <meta charset="UTF-8">
+   <title>Test04_table_01</title>
+</head>
+<body>
+   <header class="header"> 성일정보고 2학년 12반 12반 염현서</header><br>
+
+   <table border="1">
+      <caption>2학년12반 시간표 </caption>
+      <tr>
+         <th>교시</th>
+         <th>월</th>
+         <th>화</th>
+         <th>수</th>
+         <th>목</th>
+         <th>금</th>
+      </tr>
+      <tr>
+         <th>1</th>
+         <td colspan="2">문학</td>
+         <td>응프</td>
+         <td>문학</td>
+         <td rowspan="2">응프</td>
+      </tr>
+      <tr>
+         <th>2</th>
+         <td>수학</td>
+         <td>시스</td>
+         <td>미술</td>
+         <td>수인</td>
+      </tr>
+      <tr>
+         <th>3</th>
+         <td>시스</td>
+         <td>응프</td>
+         <td colspan="2">시스</td>
+         <td>체탐</td>
+      </tr>
+      <tr>
+         <th>4</th>
+         <td>미술</td>
+         <td>실영</td>
+         <td>응프</td>
+         <td>한국</td>
+         <td>시스</td>
+      </tr>
+      <tr>
+         <th>5</th>
+         <td rowspan="2">응프</td>
+         <td>시스</td>
+         <td>한국</td>
+         <td>시스</td>
+         <td rowspan="3">창체</td>
+      </tr>
+      <tr>
+         <th>6</th>
+         <td rowspan="2">진로</td>
+         <td>실영</td>
+         <td>응프</td>
+      </tr>
+      <tr>
+         <th>7</th>
+         <td>한국</td>
+         <td></td>
+         <td>실영</td>
+      </tr>
+   </table>
+</body>
+</html>
