@@ -58,7 +58,7 @@
 		</nav>
 		<main id="section">
 			<h2 class="title">홈쇼핑 회원 등록</h2>
-			<form name="data" action="join_p" method="post" onsubmit="return CheckValue()">
+			<form name="data" action="join_p.jsp" method="post" onsubmit="return CheckValue()">
 			<table class="table_line">
 				<tr>
 					<th>회원번호(자동발생)</th>
