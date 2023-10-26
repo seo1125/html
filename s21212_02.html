@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charser="UTF-8">
+  <title>embedded방식_내부스타일_s21200_02 염현서</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    a {
+      color: yellow;
+      text-decoration: none;
+    }
+
+    #nav {
+      width: 100%;
+      height: 40px;
+      line-height: 40px;
+      background-color: blue;
+    }
+
+    #nav ul li {
+      /* display:inline-block */
+      float: left;
+      padding: 0 10px;
+    }
+
+    #main {
+      padding: 10px;
+    }
+
+    #main p {
+      padding: 20px;
+    }
+
+    #footer {
+      width: 100%;
+      height: 30px;
+      line-height: 30px;
+      background-color: blue;
+      color: white;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>쇼핑몰 회원관리 ver1.0</h1>
+
+    <nav id="nav">
+      <ul type="none">
+        <li><a href="#">회원등록</a></li>
+        <li><a href="#">회원목록조회</a></li>
+        <li><a href="#">회원매출조회</a></li>
+        <li><a href="#">홈으로</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <h2>쇼핑몰 회원관리 프로그램</h2>
+    <p>1.회원정보 테이블을 생성한다.<br></p>
+    <p>2.매출정보 테이블을 생성한다.</p>
+  </main>
+  <footer id="footer">
+    <p>소프트웨어 개발과 2학년 12반 우리는 할 수 있습니다. 아자! 아자! 아자!!!</p>
+  </footer>
+</body>
+
+</html>
